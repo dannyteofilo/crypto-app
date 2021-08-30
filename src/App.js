@@ -1,10 +1,12 @@
 import "./styles/styles.scss";
+import { Provider } from "react-redux";
+import { getStore } from "./redux/store/store";
 
 function App() {
   return (
-    <div className="App">
-     Hello
-    </div>
+    <Provider store={getStore()}>
+      <div>Hello world</div>
+    </Provider>
   );
 }
 
