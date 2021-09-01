@@ -4,6 +4,9 @@ body {
   background: #ddeefc;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
+  background-image: url('../../assets/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 * {
   box-sizing: border-box;
